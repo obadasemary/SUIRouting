@@ -11,6 +11,6 @@ This repository contains the SUIRouting.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/obadasemary/SUIRouting.git", .upToNextMajor(from: "1.0.6"))
+    .package(url: "https://github.com/obadasemary/SUIRouting.git", .upToNextMajor(from: "1.0.7"))
 ]
 ```

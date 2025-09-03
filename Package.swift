@@ -7,13 +7,14 @@ let package = Package(
     name: "SUIRouting",
     platforms: [
         .iOS(.v16),
-        .macOS(.v10_15)
+        .macOS(.v14),
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "SUIRouting",
-            targets: ["SUIRouting"]),
+            targets: ["SUIRouting"]
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
